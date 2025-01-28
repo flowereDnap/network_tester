@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.test-control {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.test-control.disabled {
+    color: #666;
+    border-color: #ccc;
+}
+
+.test-control.enabled {
+    color: #fff;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
